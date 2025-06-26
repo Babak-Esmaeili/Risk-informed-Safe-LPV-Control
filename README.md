@@ -35,23 +35,12 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 
 ## 🛠 Requirements
 
-- **MATLAB R2018a or newer**: for running MATLAB example scripts.
 - **Python 3.8+**, **ROS 2** (Humble) and related packages: for deploying the ROS 2 node.
 - **Gazebo**: for simulation of the robotic vehicle.
 - **NumPy**, **rclpy**, **sensor_msgs**, **geometry_msgs**, etc.: Python dependencies for ROS 2 node.
-- **YALMIP/MOSEK** in MATLAB or **CVX/MOSEK** in Python: for solving LP in safe gain computation.
 - A mobile robot platform compatible with ROS 2 for real-world validation.
 
 ---
-
-## ▶️ Usage
-
-### Example 1: Magnetic Suspension (MATLAB only)
-1. Open MATLAB and navigate to `matlab/example1_magnetic_suspension/`.
-2. Run `generate_data.m` to collect or simulate input-output data under perturbations.
-3. Run `compute_safe_gains.m` to compute risk-informed safe-control gains ensuring constraints on position and velocity.
-4. Run `simulate_suspension.m` to simulate closed-loop response and verify constraint satisfaction.
-5. Inspect plots of trajectories and safe-set adherence.
 
 ---
 
