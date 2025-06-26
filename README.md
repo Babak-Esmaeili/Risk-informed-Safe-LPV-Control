@@ -25,7 +25,7 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 - **Data efficiency**: Requires weaker data-richness conditions compared to model-based identification.
 - **Practical validation**: Two examples demonstrate effectiveness:
   1. **Magnetic suspension system**: MATLAB scripts compute safe-control gains ensuring constraints on position and velocity.
-  2. **Robotic vehicle path tracking**: MATLAB-computed gains are used in a Python ROS 2 node for real-time deployment on a mobile robot; includes Gazebo simulation and real-world experiments.
+  2. **Robotic vehicle set-point tracking**: MATLAB-computed gains are used in a Python ROS 2 node for real-time deployment on a mobile robot; includes Gazebo simulation and real-world experiments.
 
 ---
 
