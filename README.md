@@ -84,22 +84,37 @@ If you use this repository, please cite:
 
 ## 📸 Visuals
 
+<!-- Single photo of the robot -->
 <p align="center">
-  <!-- Row 1 -->
-  <img src="images/Gazebo_sim_1.png"      alt="Gazebo Simulation"   width="340"/>
-  <img src="images/rosbot.jpeg"           alt="Physical Robot"      width="340"/>
+  <img src="images/rosbot.jpeg" alt="Physical robot" width="420"/>
+  <br/>
+  <em>Physical robot used in experiments.</em>
 </p>
 
-<p align="center">
-  <!-- Row 2 -->
-  <img src="images/robot_environment.jpeg" alt="Real-world Setup"  width="340"/>
-</p>
+<!-- 2 × 2 grid: Gazebo simulations -->
+<table align="center">
+  <tr>
+    <td><img src="images/Gazebo_sim_1.png" alt="Gazebo 1" width="300"/></td>
+    <td><img src="images/Gazebo_sim_2.png" alt="Gazebo 2" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/Gazebo_sim_3.png" alt="Gazebo 3" width="300"/></td>
+    <td><img src="images/Gazebo_sim_4.png" alt="Gazebo 4" width="300"/></td>
+  </tr>
+</table>
+<p align="center"><em>Figure 1 – Gazebo environment snapshots (2 × 2 layout).</em></p>
 
-<p align="center">
-  <em>
-    Left-top: Gazebo environment for robotic vehicle path tracking.&nbsp;&nbsp;
-    Right-top: Physical robot used in experiments.<br/>
-    Bottom: Real-world deployment setup.
-  </em>
-</p>
+<!-- 2 × 2 grid: real-world implementation -->
+<table align="center">
+  <tr>
+    <td><img src="images/implementation_1.jpeg" alt="Impl 1" width="300"/></td>
+    <td><img src="images/implementation_2.jpeg" alt="Impl 2" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/implementation_3.jpeg" alt="Impl 3" width="300"/></td>
+    <td><img src="images/implementation_4.jpeg" alt="Impl 4" width="300"/></td>
+  </tr>
+</table>
+<p align="center"><em>Figure 2 – Real-world robot implementation snapshots (2 × 2 layout).</em></p>
+
 
