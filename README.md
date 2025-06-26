@@ -44,6 +44,7 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 
 ## 📸 Visuals
 
+Watch the videos:
 - [Gazebo simulation](https://www.youtube.com/watch?v=3ULDY4uTluE)
 - [Real-world implementation](https://www.youtube.com/shorts/uvQIkGUE2fQ)
 
