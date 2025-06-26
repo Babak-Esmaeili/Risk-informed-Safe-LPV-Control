@@ -107,12 +107,12 @@ If you use this repository, please cite:
 <!-- 2 × 2 grid: real-world implementation -->
 <table align="center">
   <tr>
-    <td><img src="images/implementation_1.jpeg" alt="Impl 1" width="300"/></td>
-    <td><img src="images/implementation_2.jpeg" alt="Impl 2" width="300"/></td>
+    <td><img src="images/implementation_1.jpg" alt="Impl 1" width="300"/></td>
+    <td><img src="images/implementation_2.jpg" alt="Impl 2" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="images/implementation_3.jpeg" alt="Impl 3" width="300"/></td>
-    <td><img src="images/implementation_4.jpeg" alt="Impl 4" width="300"/></td>
+    <td><img src="images/implementation_3.jpg" alt="Impl 3" width="300"/></td>
+    <td><img src="images/implementation_4.jpg" alt="Impl 4" width="300"/></td>
   </tr>
 </table>
 <p align="center"><em>Figure 2 – Real-world robot implementation snapshots (2 × 2 layout).</em></p>
