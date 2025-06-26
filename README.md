@@ -12,7 +12,7 @@ This repository contains code and documentation for the paper:
 
 ## 🧠 Abstract
 
-This paper presents a risk-informed data-driven safe control design approach for stochastic uncertain nonlinear systems modeled as LPV systems. A model-based probabilistic safe controller is first designed to guarantee probabilistic λ-contractivity of a given safe set. A direct data-driven representation of the closed-loop LPV system is then used to design a minimum-variance risk-averse safe controller that minimizes the variance of safety violations. Two practical examples are provided: (1) a magnetic suspension system computing safe-control gains to satisfy position/velocity constraints, and (2) a robotic vehicle path-tracking scenario where MATLAB-computed gains are deployed in a Python ROS 2 node for real-time safety-critical control, demonstrated in Gazebo simulation and real-world tests.
+This paper presents a risk-informed data-driven safe control design approach for a class of stochastic uncertain nonlinear discrete-time systems. The nonlinear system is modeled using linear parameter-varying (LPV) systems. A model-based probabilistic safe controller is first designed to guarantee probabilistic λ-contractivity (i.e., stability and invariance) of the LPV system with respect to a given polyhedral safe set. To obviate the requirement of knowing the LPV system model and to bypass identifying its open-loop model, its closed-loop data-based representation is provided in terms of state and scheduling data as well as a decision variable. It is shown that the variance of the closed-loop system, as well as the probability of safety satisfaction, depends on the decision variable and the noise covariance. A minimum-variance direct data-driven gain-scheduling safe control design approach is presented next by designing the decision variable such that all possible closed-loop system realizations satisfy safety with the highest confidence level. This minimum-variance approach is a control-oriented learning method since it minimizes the variance of the state of the closed-loop system with respect to the safe set, and thus minimizes the risk of safety violation. Unlike the certainty-equivalent approach that results in a risk-neutral control design, the minimum-variance method leads to a risk-averse control design. It is shown that the presented direct risk-averse learning approach requires weaker data richness conditions than existing indirect learning methods based on system identification and can lead to a lower risk of safety violation. Two simulation examples along with an experimental validation on an autonomous vehicle are provided to show the effectiveness of the presented approach.
 
 ---
 
@@ -36,10 +36,10 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 ## 🛠 Requirements
 
 - **MATLAB R2018a or newer**: for running MATLAB example scripts.
-- **Python 3.8+**, **ROS 2** (e.g., Foxy/Galactic/Humble) and related packages: for deploying the ROS 2 node.
+- **Python 3.8+**, **ROS 2** (Humble) and related packages: for deploying the ROS 2 node.
 - **Gazebo**: for simulation of the robotic vehicle.
 - **NumPy**, **rclpy**, **sensor_msgs**, **geometry_msgs**, etc.: Python dependencies for ROS 2 node.
-- **YALMIP/MOSEK** or **CVX/MOSEK** in MATLAB: for solving LP in safe gain computation.
+- **YALMIP/MOSEK** in MATLAB or **CVX/MOSEK** in Python: for solving LP in safe gain computation.
 - A mobile robot platform compatible with ROS 2 for real-world validation.
 
 ---
