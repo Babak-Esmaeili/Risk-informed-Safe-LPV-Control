@@ -88,7 +88,7 @@ If you use this repository, please cite:
 <p align="center">
   <img src="images/rosbot.jpeg" alt="Physical robot" width="420"/>
   <br/>
-  <em>Physical robot used in experiments.</em>
+  <em>Physical robot used in experiments (Rosbot 2R).</em>
 </p>
 
 <!-- 2 × 2 grid: Gazebo simulations -->
@@ -102,7 +102,7 @@ If you use this repository, please cite:
     <td><img src="images/Gazebo_sim_4.png" alt="Gazebo 4" width="300"/></td>
   </tr>
 </table>
-<p align="center"><em>Figure 1 – Gazebo environment snapshots (2 × 2 layout).</em></p>
+<p align="center"><em>Gazebo environment snapshots.</em></p>
 
 <!-- 2 × 2 grid: real-world implementation -->
 <table align="center">
@@ -115,6 +115,6 @@ If you use this repository, please cite:
     <td><img src="images/implementation_4.jpg" alt="Impl 4" width="300"/></td>
   </tr>
 </table>
-<p align="center"><em>Figure 2 – Real-world robot implementation snapshots (2 × 2 layout).</em></p>
+<p align="center"><em>Real-world robot implementation snapshots.</em></p>
 
 
