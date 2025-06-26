@@ -50,7 +50,7 @@ Watch the videos:
 
 <!-- Single photo of the robot -->
 <p align="center">
-  <img src="images/rosbot.jpeg" alt="Physical robot" width="420"/>
+  <img src="Images/rosbot.jpeg" alt="Physical robot" width="420"/>
   <br/>
   <em>Physical robot used in experiments (Rosbot 2R).</em>
 </p>
@@ -58,12 +58,12 @@ Watch the videos:
 <!-- 2 × 2 grid: Gazebo simulations -->
 <table align="center">
   <tr>
-    <td><img src="images/Gazebo_sim_1.png" alt="Gazebo 1" width="300"/></td>
-    <td><img src="images/Gazebo_sim_2.png" alt="Gazebo 2" width="300"/></td>
+    <td><img src="Images/Gazebo_sim_1.png" alt="Gazebo 1" width="300"/></td>
+    <td><img src="Images/Gazebo_sim_2.png" alt="Gazebo 2" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="images/Gazebo_sim_3.png" alt="Gazebo 3" width="300"/></td>
-    <td><img src="images/Gazebo_sim_4.png" alt="Gazebo 4" width="300"/></td>
+    <td><img src="Images/Gazebo_sim_3.png" alt="Gazebo 3" width="300"/></td>
+    <td><img src="Images/Gazebo_sim_4.png" alt="Gazebo 4" width="300"/></td>
   </tr>
 </table>
 <p align="center"><em>Gazebo environment snapshots.</em></p>
@@ -71,12 +71,12 @@ Watch the videos:
 <!-- 2 × 2 grid: real-world implementation -->
 <table align="center">
   <tr>
-    <td><img src="images/implementation_1.jpg" alt="Impl 1" width="300"/></td>
-    <td><img src="images/implementation_2.jpg" alt="Impl 2" width="300"/></td>
+    <td><img src="Images/implementation_1.jpg" alt="Impl 1" width="300"/></td>
+    <td><img src="Images/implementation_2.jpg" alt="Impl 2" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="images/implementation_3.jpg" alt="Impl 3" width="300"/></td>
-    <td><img src="images/implementation_4.jpg" alt="Impl 4" width="300"/></td>
+    <td><img src="Images/implementation_3.jpg" alt="Impl 3" width="300"/></td>
+    <td><img src="Images/implementation_4.jpg" alt="Impl 4" width="300"/></td>
   </tr>
 </table>
 <p align="center"><em>Real-world robot implementation snapshots.</em></p>
