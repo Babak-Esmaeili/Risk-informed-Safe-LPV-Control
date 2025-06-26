@@ -42,36 +42,10 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 
 ---
 
----
-
-## 📜 License and Contact
-
-This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
-
-For questions or collaboration, contact:
-- **Babak Esmaeili** – esmaeil1@msu.edu
-
----
-
-## 📚 Citation
-
-If you use this repository, please cite:
-```bibtex
-@article{esmaeili2024riskinformed,
-  title={Risk-Informed Model-Free Safe Control of Linear Parameter-Varying Systems},
-  author={Esmaeili, Babak and Modares, Hamidreza},
-  journal={IEEE/CAA Journal of Automatica Sinica},
-  volume={11},
-  number={9},
-  pages={1918--1932},
-  year={2024},
-  doi={10.1109/JAS.2024.124479}
-}
-```
-
----
-
 ## 📸 Visuals
+
+- [Gazebo simulation](https://www.youtube.com/watch?v=3ULDY4uTluE)
+- [Real-world implementation](https://www.youtube.com/shorts/uvQIkGUE2fQ)
 
 <!-- Single photo of the robot -->
 <p align="center">
@@ -106,4 +80,32 @@ If you use this repository, please cite:
 </table>
 <p align="center"><em>Real-world robot implementation snapshots.</em></p>
 
+---
+
+## 📜 License and Contact
+
+This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
+
+For questions or collaboration, contact:
+- **Babak Esmaeili** – esmaeil1@msu.edu
+
+---
+
+## 📚 Citation
+
+If you use this repository, please cite:
+```bibtex
+@article{esmaeili2024riskinformed,
+  title={Risk-Informed Model-Free Safe Control of Linear Parameter-Varying Systems},
+  author={Esmaeili, Babak and Modares, Hamidreza},
+  journal={IEEE/CAA Journal of Automatica Sinica},
+  volume={11},
+  number={9},
+  pages={1918--1932},
+  year={2024},
+  doi={10.1109/JAS.2024.124479}
+}
+```
+
+---
 
