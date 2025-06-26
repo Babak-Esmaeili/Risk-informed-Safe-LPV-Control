@@ -84,10 +84,13 @@ If you use this repository, please cite:
 
 **Visuals**
 
-![Gazebo Simulation](images/gazebo_simulation.png)  
+![Gazebo Simulation](images/Gazebo_sim_1.png)  
 *Gazebo environment for robotic vehicle path tracking.*
 
-![Real-World Setup](images/real_world_setup.jpg)  
+![Physical Robot](images/rosbot.jpg)  
+*Physical robot.*
+
+![Real-World Setup](images/robot_environment.png)  
 *Physical robot in its operating environment.*
 
 Enjoy exploring risk-informed safe control for LPV systems with practical MATLAB and ROS 2 examples!
