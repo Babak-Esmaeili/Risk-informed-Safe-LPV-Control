@@ -90,6 +90,9 @@ If you use this repository, please cite:
 ![Physical Robot](images/rosbot.jpeg)  
 *Physical robot.*
 
+<img src="images/rosbot.jpeg"         alt="Physical robot"        width="400"/>
+<img src="images/robot_environment.jpeg" alt="Real-world setup"  width="400"/>
+
 ![Real-World Setup](images/robot_environment.jpeg)  
 *Physical robot in its operating environment.*
 
