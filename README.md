@@ -37,7 +37,7 @@ This work develops a robust, risk-informed, model-free safe control framework fo
 
 - **Python 3.8+**, **ROS 2** (Humble) and related packages: for deploying the ROS 2 node.
 - **Gazebo**: for simulation of the robotic vehicle.
-- **NumPy**, **rclpy**, **sensor_msgs**, **geometry_msgs**, etc.: Python dependencies for ROS 2 node.
+- **NumPy**, **rclpy**, **nav_msgs**, **geometry_msgs**, etc.: Python dependencies for ROS 2 node.
 - A mobile robot platform compatible with ROS 2 for real-world validation.
 
 ---
